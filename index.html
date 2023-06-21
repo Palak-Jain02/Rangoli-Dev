@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rangoli foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <div class="nav-bar">
+            <h1 class="title">Ran<span>goli</span></h1>
+        </div>
+                      <div class="nav-links">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">About</a></li></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1> World's biggest Artist Home</h1>
+            <p>The purest and most thoughtful minds are those who love color the most.</p>
+            <a href="" class="hero-btn">Know more about us</a>
+        </div>
+        
+    </section>
+    
+
+
+    <section class="varieties">
+        <h1>Courses we provided</h1>
+        <p> Art doesn’t have to be pretty. It has to be meaningful.</p>
+      
+        <div class="row">
+          <div class="varieties-col">
+            <h3>Sand Art Rangoli</h3>
+            <p>A Rangoli is a decorative pattern made by sprinkling 
+                dried rice flour into different shapes and colors onto the ground.</p>
+          </div>
+          <div class="varieties-col">
+            <h3>Traditional Rangoli</h3>
+            <p>Rangoli is a traditional rural Indian art form in which dots, 
+                lines and patterns are drawn on the ground by hand.</p>
+          </div>
+      
+          <div class="varieties-col">
+            <h3>Ornamental Rangoli</h3>
+            <p>Rangoli is believed to bring good luck and prosperity to those who see it. 
+                It is also said to ward off evil spirits.</p>
+          </div>
+      
+        </div>
+      </section>
+
+
+
+
+      <script>
+var navLinks = document.getElementById("navLinks");
+
+ function showMenu() {
+    navLinks.style.right = "0";
+ }
+
+ function hideMenu() {
+    navLinks.style.right = "-200px";
+ }
+      </script>
+</body>
+</html>
